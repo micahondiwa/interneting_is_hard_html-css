@@ -90,6 +90,17 @@ body {
         margin-top: 7px;
         padding-right: 20px;
     }
+    .legacy-form-row {
+        margin-bottom: 10px;
+    }
+    .legacy-form-row legend {
+        width: 120px;
+        text-align: right;
+        padding-right: 20px;
+    }
+    .legacy-form-row legend {
+        float: left;
+    }
 }
 
 .form-row input[type = 'text']:invalid,
@@ -97,6 +108,26 @@ body {
     border: 1px solid #D55C5F;
     columns: #D55C5F;
     box-shadow: none;
+}
+
+.legacy-form-row {
+    border: none;
+    margin-bottom: 40px;
+}
+
+.legacy-form-row legend {
+    margin-bottom: 15px;
+}
+
+.legacy-form-row .radio-label {
+    display: block;
+    font-size: 14px;
+    padding: 0 20px 0 10px;
+}
+
+.legacy-form-row .radio-label,
+.legacy-form-row input[type = 'radio'] {
+    float: left;
 }
 
 
