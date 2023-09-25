@@ -51,7 +51,8 @@ body {
     flex-wrap: wrap;
 }
 
-.form-row input[type='text'] {
+.form-row input[type='text'],
+.form-row input[type ='email'] {
     background-color: #FFFFFFFF;
     border: 1px solid #D6D9DC;
     border-radius: 3px;
@@ -74,6 +75,15 @@ body {
         align-items: flex-start;
         margin-bottom: 20px;
     }
+    .form-row input[type ='text'],
+    .form-row input[type ='email'],
+    .form-row select,
+    .form-row textarea {
+        width: 250px;
+        height: initial;
+        background-color: #FFFFFFFF;
+
+    }
     .form-row label {
         text-align: right;
         width: 120px;
@@ -81,6 +91,15 @@ body {
         padding-right: 20px;
     }
 }
+
+.form-row input[type = 'text']:invalid,
+.form-row input[type = 'email']:invalid{
+    border: 1px solid #D55C5F;
+    columns: #D55C5F;
+    box-shadow: none;
+}
+
+
 
 
 
