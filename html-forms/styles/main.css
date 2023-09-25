@@ -52,7 +52,7 @@ body {
 }
 
 .form-row input[type='text'],
-.form-row input[type ='email'] {
+.form-row input[type='email'] {
     background-color: #FFFFFFFF;
     border: 1px solid #D6D9DC;
     border-radius: 3px;
@@ -66,17 +66,20 @@ body {
 }
 
 @media only screen and (min-width: 700px) {
+
     .speaker-form-header,
     .speaker-form {
         width: 600px;
     }
+
     .form-row {
         flex-direction: row;
         align-items: flex-start;
         margin-bottom: 20px;
     }
-    .form-row input[type ='text'],
-    .form-row input[type ='email'],
+
+    .form-row input[type='text'],
+    .form-row input[type='email'],
     .form-row select,
     .form-row textarea {
         width: 250px;
@@ -84,34 +87,40 @@ body {
         background-color: #FFFFFFFF;
 
     }
+
     .form-row label {
         text-align: right;
         width: 120px;
         margin-top: 7px;
         padding-right: 20px;
     }
+
     .legacy-form-row {
         margin-bottom: 10px;
     }
+
     .legacy-form-row legend {
         width: 120px;
         text-align: right;
         padding-right: 20px;
     }
+
     .legacy-form-row legend {
         float: left;
     }
+
     .form-row .instructions {
         margin-left: 120px;
     }
+
     .form-row .checkbox-label {
         margin-left: 120px;
         width: auto;
     }
 }
 
-.form-row input[type = 'text']:invalid,
-.form-row input[type = 'email']:invalid{
+.form-row input[type='text']:invalid,
+.form-row input[type='email']:invalid {
     border: 1px solid #D55C5F;
     columns: #D55C5F;
     box-shadow: none;
@@ -133,12 +142,12 @@ body {
 }
 
 .legacy-form-row .radio-label,
-.legacy-form-row input[type = 'radio'] {
+.legacy-form-row input[type='radio'] {
     float: left;
 }
 
 .form-row text {
-    font-family: Helvetica, Arial,sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 14px;
 
     border: 1px solid #D6D9DC;
@@ -159,8 +168,3 @@ body {
 .form-row .checkbox-label {
     margin-bottom: 0;
 }
-
-
-
-
-

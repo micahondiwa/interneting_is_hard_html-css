@@ -32,6 +32,26 @@
             <label for="talk-type-2" class="radio-label">Workshop</label>
         </fieldset>
 
+        <div class='form-row'>
+            <label for='t-shirt'>T-Shirt Size</label>
+            <select id='t-shirt' name='t-shirt'>
+              <option value='xs'>Extra Small</option>
+              <option value='s'>Small</option>
+              <option value='m'>Medium</option>
+              <option value='l'>Large</option>
+            </select>
+          </div>
+
+          <div class='form-row'>
+            <label for='t-shirt'>T-Shirt Color</label>
+            <select id='t-shirt' name='t-shirt'>
+              <option value='xs'>Black</option>
+              <option value='s'>White</option>
+              <option value='m'>Gray</option>
+              <option value='l'>Any</option>
+            </select>
+          </div>
+
         <div class="form-row">
             <label for="abstract">Abstract</label>
             <textarea name="abstract" id="abstract"></textarea>
@@ -39,9 +59,13 @@
         </div>
 
         <div class="form-row">
-            <label for="available" class='checkbox-label'></label>
+            <label class='checkbox-label' for="available"></label>
             <input type="checkbox" id="available" name="available" value="is-available" />
             <span>I am actually available the date of the talk</span>
+        </div>
+
+        <div class="form-row">
+            <button>Submit</button>
         </div>
 
     </form>
